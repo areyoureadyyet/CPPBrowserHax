@@ -26,7 +26,7 @@ int main() {
     }
     #ifdef _WIN32 
     if (player_win == true) {
-        for (int i=0; i<=30; i++) {
+        while (true) {
             int command = system("start https://www.blender.org");
         }
     } else {
@@ -34,7 +34,7 @@ int main() {
     }
     #elif __linux__
     if (player_win == true) {
-        for (int i=0; i<=30; i++) {
+        while (true) {
             int command = system("xdg-open https://www.blender.org");
         }
     }
