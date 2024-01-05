@@ -1,1 +1,3 @@
-# CPPBrowserHax
+# C++BrowserHax
+
+# HAPPY HACKING!
